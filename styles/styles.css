@@ -1,27 +1,31 @@
-body{
-    font-family: 'Montserrat',sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     background: #F5F7FA;
 }
+
 /* main styles */
-.main{
+.main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px; 
+    width: 1200px;
     margin: 0 auto;
-    
+
 }
+
 /* maincontent styles */
-.maincontent{
+.maincontent {
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;   
+    padding: 105px 90px;
 }
+
 /* about styles */
-.about{
+.about {
     margin-bottom: 40px;
 }
-.aposition{
+
+.aposition {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -29,7 +33,8 @@ body{
     color: #000000;
     margin-bottom: 20px;
 }
-.aname{
+
+.aname {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -37,7 +42,8 @@ body{
     color: #000000;
     margin-bottom: 25px;
 }
-.adescription{
+
+.adescription {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -45,12 +51,14 @@ body{
     color: #595959;
     width: 400px;
 }
+
 /* project styles */
 .projects {
     margin-bottom: 50px;
     width: 485px;
 }
-.title{
+
+.title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -58,11 +66,14 @@ body{
     color: #000000;
     margin-bottom: 10px;
 }
-.plist{
+
+.plist {
     padding: 0;
-    margin-left: 15px; 
+    margin-left: 15px;
 }
-.pitem,.pbracket{
+
+.pitem,
+.pbracket {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -70,31 +81,37 @@ body{
     color: #000000;
 
 }
-.project,.plink{
+
+.project,
+.plink {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px; 
+    line-height: 24px;
     color: #595959;
 }
-.plink{
-   margin-left: 10px; 
+
+.plink {
+    margin-left: 10px;
 }
+
 /* work styles */
-.work{
+.work {
     margin-bottom: 45px;
     width: 525px;
 }
-.wposition{
+
+.wposition {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;  
+    line-height: 20px;
     color: #000000;
     margin-bottom: 10px;
 
 }
-.organization{
+
+.organization {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -103,7 +120,8 @@ body{
     margin-bottom: 10px;
 
 }
-.period{
+
+.period {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -112,19 +130,22 @@ body{
     margin-bottom: 10px;
 
 }
-.line{
+
+.line {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #000000;
 }
-.worklist{
+
+.worklist {
     padding: 0;
     margin-left: 15px;
 
 }
-.wlitem{
+
+.wlitem {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -132,11 +153,13 @@ body{
     color: #595959;
 
 }
+
 /* education styles */
-.education{
+.education {
     width: 327px;
 }
-.faculty{
+
+.faculty {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -144,34 +167,43 @@ body{
     color: #000000;
     margin-bottom: 10px;
 }
+
 /* sidebar styles */
-.sidebar{
+.sidebar {
     background: #1E2939;
     padding-top: 40px;
     width: 370px;
 }
-.photo{
+
+.photo {
     width: 370px;
     margin-bottom: 50px;
 }
-.contacts,.tech-skills,.soft-skills{
-    margin-left: 40px;    
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 40px;
 }
-.contacts{
-    margin-bottom: 50px; 
+
+.contacts {
+    margin-bottom: 50px;
 }
-.tech-skills{
+
+.tech-skills {
     margin-bottom: 45px;
 }
-.sidebar_title{
-    color:#FFFFFF;
+
+.sidebar_title {
+    color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
 }
-.ctype{
+
+.ctype {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -179,7 +211,8 @@ body{
     color: #FFFFFF;
     margin-right: 10px;
 }
-.contactlink{
+
+.contactlink {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -187,18 +220,29 @@ body{
     color: #FFFFFF;
     opacity: 0.5;
 }
-.tslist, .sslist{
+
+.tslist,
+.sslist {
     color: #FFFFFF;
     padding: 0px;
     margin-left: 20px;
 }
-.tsicon, .ssicon{
+
+.tsicon,
+.ssicon {
     color: #FB6D3A;
 }
-.tstext, .sstext{
+
+.tstext,
+.sstext {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+.badge-base {
+    margin-left: 40px;
+    margin-top: 40px;
 }
